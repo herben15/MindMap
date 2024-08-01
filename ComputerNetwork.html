@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.0/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:q,mm:v}=window,j=new q.Toolbar;j.attach(v);const we=j.render();we.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(we)})})()</script><script>((f,d,h,u)=>{const g=f();window.mm=g.Markmap.create("svg#mindmap",(d||g.deriveOptions)(u),h)})(()=>window.markmap,null,{"content":"计算机网络体系结构","children":[{"content":"计算机网络的概念","children":[{"content":"","children":[{"content":"<strong>计算机网络（简称网络）</strong>：由若干结点和连接这些结点的链路组成。","children":[]},{"content":"<strong>互连网（internet）</strong>：由路由器将多个计算机网络连接起来的更大规模的计算机网络就是互连网（<strong>家用路由器=路由器+交换机+其他功能</strong>）","children":[]},{"content":"<strong>互联网（因特网、Internet）</strong>：由各大ISP和国际机构组建的，覆盖全球范围的互连网。","children":[]},{"content":"注意：互联网<strong>必须使用TCP/IP</strong>协议通信，互连网可以使用<strong>任意协议</strong>通信。","children":[]}]},{"content":"","children":[{"content":"<strong>路由器（router）</strong>:可以把多个计算机网络互相连接起来形成规模更大的计算机网络","children":[]},{"content":"<strong>交换机（Switch）</strong>:可以将多个结点连接起来，组成一个计算机网络。","children":[]},{"content":"<strong>ISP</strong>：Internet Service Provider, 即互连网服务提供商，如中国电信/移动/联通。","children":[]}]}]},{"content":"计算机网络的组成、功能","children":[{"content":"从组成部分看","children":[{"content":"<p><strong>硬件</strong></p>","children":[{"content":"<strong>主机</strong>：即端系统（end system），如电脑、手机、物联网设备。","children":[]},{"content":"<strong>通信设备</strong>：如集线器、交换机、路由器。","children":[]},{"content":"<strong>通信链路</strong>：如网线、光纤、同轴电缆。","children":[]}]},{"content":"<p><strong>软件</strong></p>","children":[]},{"content":"<p><strong>通信协议</strong></p>","children":[]}]},{"content":"从工作方式看","children":[{"content":"<p><strong>边缘部分</strong></p>","children":[{"content":"工作方式：<strong>直接为用户服务</strong>（通信、资源共享）","children":[]},{"content":"主要由来连接到互联网上的主机及其软件组成","children":[]}]},{"content":"<p><strong>核心部分</strong></p>","children":[{"content":"工作方式：<strong>为边缘部分提供服务</strong>（连通性、交换服务）","children":[]},{"content":"由大量网络和连接这些网络的路由器组成","children":[]}]}]},{"content":"从逻辑功能看","children":[{"content":"<p><strong>资源子网</strong></p>","children":[{"content":"计算机网络中运行应用程序，向用户提供可共享的硬件、软件和信息资源的部分。","children":[]},{"content":"<strong>主要由连接到互联网上的主机组成</strong>","children":[]}]},{"content":"<p><strong>通信子网</strong></p>","children":[{"content":"计算机网络中负责<strong>计算机间信息传递的部分</strong>。即把计算机和其他用户装置互连再一起的所有通信设备和介质的总称。","children":[]},{"content":"<strong>主要由通信链路+通信设备+协议构成</strong>。","children":[]},{"content":"注意：主机内部实现信息传输的网络适配器、底层协议属于通信子网的范畴。","children":[]}]}]},{"content":"功能","children":[{"content":"<strong>数据通信</strong>：实现计算机之间数据传输。最基本、最重要的功能。","children":[]},{"content":"<strong>资源共享</strong>：硬件、软件、数据资源的共享。如手机上的资源使用网络传输给有打印机连接的主机上实现打印（硬件共享）、应用商店（软件共享）、分享视频（数据资源共享）。","children":[]},{"content":"<strong>分布式处理</strong>：将某个复杂任务分配给网络中多台计算机处理。如大矩阵运算、MapReduce。","children":[]},{"content":"<strong>提高可靠性</strong>：网络中各台计算机互为替代机。如网盘服务器集群网络，数据冗余备份。","children":[]},{"content":"<strong>负载均衡</strong>：网络中各台计算机共同分担繁重工作。如游戏用多台服务器处理玩家请求。","children":[]},{"content":"<strong>其他</strong>：满足社会需求、生活需求。如远程办公、娱乐等。","children":[]}]}]},{"content":"数据交换技术","children":[{"content":"电路交换","children":[]},{"content":"报文交换","children":[]},{"content":"分组交换","children":[]}]}]},null)</script>
+</body>
+</html>
